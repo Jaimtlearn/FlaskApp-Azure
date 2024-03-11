@@ -12,6 +12,6 @@ After installing pip manager, install flask by
 <pre>pip install -r requirements.txt</pre>
 
 3. Run command on terminal:
-<pre>gunicorn --bind 0.0.0.0:5000 --config gunicorn.conf app:app</pre>
+<pre>gunicorn --config gunicorn.conf app:app</pre>
 
 4. copy public ip assigned to the Vm, copy it in the url bar, replace https with http, append this in the end, :(port provided by you), it should look like this, http://ip:port
