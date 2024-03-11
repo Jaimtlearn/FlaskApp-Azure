@@ -2,12 +2,12 @@
 Basic Flask application over azure public network
 
 # Pre-requisits
-1. Check for the inbound rules of networking setting of VM machiene that it listens to the particular port, in my case it is 5000
+1. Check for the inbound rules of networking setting of VM machiene that it listens to the particular port, in my case it is 5001
 2. install particular things:
 <pre>sudo apt update && sudo apt install python3</pre>
 then,
 <pre>sudo apt install python3-pip</pre>
-After installing pip manager, install flask by
+After installing pip manager, install dependencies by
 <br>
 <pre>pip install -r requirements.txt</pre>
 
