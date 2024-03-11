@@ -20,4 +20,4 @@ After installing pip manager, install dependencies by
 for avalabilty of the app, I have created service of the app so even when shell is terminated it will not shutdown the process.
 <br>
 Command:
-<pre>nohup gunicorn --config gunicorn.conf app:app > nohup.out 2>&1 &</pre>
+<pre>nohup gunicorn --config gunicorn.conf app:app > nohup.out 2>&1 & disown</pre>
